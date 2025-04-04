@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MiPantalla extends StatefulWidget {
-  const MiPantalla({super.key});
+class ContadorScreen extends StatefulWidget {
+  const ContadorScreen({super.key});
 
   @override
-  MiPantallaState createState() => MiPantallaState();
+  ContadorScreenState createState() => ContadorScreenState();
 }
 
-class MiPantallaState extends State<MiPantalla> {
+class ContadorScreenState extends State<ContadorScreen> {
   int _counter = 0;
 
   void _incrementCounter() {

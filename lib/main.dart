@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vdenis_flutter_003/views/mi_pantalla.dart';
+import 'package:vdenis_flutter_003/views/cambio_color_screen.dart';
+import 'package:vdenis_flutter_003/views/contador_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const MiPantalla(),
+     // home: const ContadorScreen(),
+      home: const CambioColorScreen(), 
     );
   }
 }
